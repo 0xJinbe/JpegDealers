@@ -1,4 +1,4 @@
-<!DOCTYPE html><!--  Last Published: Tue Sep 06 2022 17:32:09 GMT+0000 (Coordinated Universal Time)  -->
+<!DOCTYPE html><!--  Last Published: Tue Sep 06 2022 18:02:28 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="630691cd51e2f4f9d5e8f357" data-wf-site="62f1b5c73d1cea6afc3c38ee">
 <head>
   <meta charset="utf-8">
@@ -45,7 +45,7 @@
   <div data-w-id="aeb5d509-3fdb-6d0a-acc9-3de8071b906d" class="desktop-wrapper">
     <div id="play_btn" class="play_btn">
       <div class="w-embed"><audio preload="auto" id="bootloaderSound" src="audio/bootloaderSound.mp3" class="audio"></audio>
-        <audio id="desktopSound" src="desktopSound.mp3" class="audio"></audio>
+        <audio id="desktopSound" src="audio/desktopSound.mp3" class="audio"></audio>
       </div>
     </div>
     <div id="popup-workEthics" class="popup workethics">
@@ -598,15 +598,11 @@
       //audio functions
       const audioB = document.getElementById("bootloaderSound");
       const audioD = document.getElementById("desktopSound");
-      let playingD = true;
+      let playingD = false;
       $(document).ready(function() {
-        audioB.volume = 0.3;
+        audioB.volume = 0.2;
         audioD.volume = 0.2;
         audioB.play();
-        setTimeout(function() {
-          audioD.play();
-          console.log("your audio is started just now");
-        }, 9000);
         $(".play_btn").click(function() {
           if (playingD == true) {
             audioD.pause();

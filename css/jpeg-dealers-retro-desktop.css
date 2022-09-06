@@ -1149,7 +1149,7 @@ a {
   top: 3%;
   right: 2%;
   bottom: auto;
-  z-index: auto;
+  z-index: 1;
   width: 2.55rem;
   height: 2.55rem;
   background-color: rgba(56, 152, 236, 0);
