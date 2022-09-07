@@ -1364,7 +1364,7 @@ a {
   top: 0%;
   right: 0%;
   bottom: 0%;
-  z-index: 201;
+  z-index: 1000;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1380,9 +1380,9 @@ a {
 }
 
 .cursor {
-  width: 20px;
-  height: 20px;
-  background-image: url('../images/cursosjoeg.png');
+  width: 25px;
+  height: 25px;
+  background-image: url('../images/smallercursos.png');
   background-position: 50% 50%;
   background-size: cover;
 }
