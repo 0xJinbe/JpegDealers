@@ -1775,6 +1775,7 @@ a {
     display: -ms-flexbox;
     display: flex;
     width: auto;
+    height: 95vh;
     padding-top: 2rem;
     padding-left: 0.6rem;
   }
@@ -2014,6 +2015,10 @@ a {
 
   .vxcontentwrapper.vx4 {
     width: 60%;
+  }
+
+  .play_btn {
+    top: 5%;
   }
 
   .teamwrapper {
