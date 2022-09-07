@@ -3,7 +3,7 @@ body {
   color: #333;
   font-size: 14px;
   line-height: 20px;
-  cursor: none;
+  cursor: auto;
 }
 
 h2 {
@@ -18,7 +18,7 @@ h2 {
 a {
   color: #141414;
   text-decoration: none;
-  cursor: none;
+  cursor: auto;
 }
 
 .body {
@@ -1365,10 +1365,7 @@ a {
   right: 0%;
   bottom: 0%;
   z-index: 1000;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
+  display: none;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
