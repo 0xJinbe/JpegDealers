@@ -1748,6 +1748,10 @@ a {
   .vx-tittle {
     font-size: 0.5rem;
   }
+
+  .entrance-popup {
+    width: 95vw;
+  }
 }
 
 @media screen and (max-width: 479px) {
@@ -2060,6 +2064,10 @@ a {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
+  }
+
+  .entrance-popup {
+    width: 90vw;
   }
 }
 
