@@ -1757,7 +1757,6 @@ a {
 @media screen and (max-width: 479px) {
   .desktop-wrapper {
     z-index: auto;
-    height: 100vh;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -webkit-flex-direction: column;
@@ -1776,7 +1775,7 @@ a {
     display: -ms-flexbox;
     display: flex;
     width: auto;
-    padding-top: 0.6rem;
+    padding-top: 2rem;
     padding-left: 0.6rem;
   }
 
