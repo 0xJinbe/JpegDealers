@@ -1444,13 +1444,24 @@ a {
   align-items: center;
 }
 
-.buttonentrance {
+.buttonentranceyes {
   position: relative;
   background-color: #fff;
   color: #141414;
 }
 
-.buttonentrance:hover {
+.buttonentranceyes:hover {
+  background-color: #290c5e;
+  color: #fff;
+}
+
+.buttonentranceno {
+  position: relative;
+  background-color: #fff;
+  color: #141414;
+}
+
+.buttonentranceno:hover {
   background-color: #290c5e;
   color: #fff;
 }
