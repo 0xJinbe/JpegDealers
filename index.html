@@ -1,4 +1,4 @@
-<!DOCTYPE html><!--  Last Published: Wed Sep 07 2022 20:07:20 GMT+0000 (Coordinated Universal Time)  -->
+<!DOCTYPE html><!--  Last Published: Wed Sep 07 2022 20:12:19 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="630691cd51e2f4f9d5e8f357" data-wf-site="62f1b5c73d1cea6afc3c38ee">
 <head>
   <meta charset="utf-8">
@@ -632,23 +632,23 @@
       const audioD = document.getElementById("desktopSound");
       let playingD = false;
       $(document).ready(function() {
-            audioB.volume = 0.5;
-            audioD.volume = 0.3;
-            audioB.play();
-            $("#btn-entrance").click(function() {
-                audioD.play();
-                playingD = true;
-              }
-              $(".play_btn").click(function() {
-                if (playingD == true) {
-                  audioD.pause();
-                  playingD = false;
-                } else {
-                  audioD.play();
-                  playingD = true;
-                }
-              });
-            });
+        audioB.volume = 0.5;
+        audioD.volume = 0.3;
+        audioB.play();
+        $("#btn-entrance").click(function() {
+          audioD.play();
+          playingD = true;
+        });
+        $(".play_btn").click(function() {
+          if (playingD == true) {
+            audioD.pause();
+            playingD = false;
+          } else {
+            audioD.play();
+            playingD = true;
+          }
+        });
+      });
     </script>
 </body>
 </html>
