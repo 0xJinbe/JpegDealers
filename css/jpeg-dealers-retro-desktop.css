@@ -630,7 +630,7 @@ a {
 
 .pre-looader {
   position: absolute;
-  z-index: 200;
+  z-index: 500;
   display: none;
   width: 100vw;
   height: 100vh;
@@ -1377,8 +1377,8 @@ a {
 }
 
 .cursor {
-  width: 25px;
-  height: 25px;
+  width: 20px;
+  height: 20px;
   background-image: url('../images/smallercursos.png');
   background-position: 50% 50%;
   background-size: cover;
