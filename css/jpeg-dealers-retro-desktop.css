@@ -3,6 +3,7 @@ body {
   color: #333;
   font-size: 14px;
   line-height: 20px;
+  cursor: none;
 }
 
 h2 {
@@ -1354,6 +1355,35 @@ a {
   color: #fff;
   font-size: 0.7rem;
   line-height: 1.3rem;
+}
+
+.cursor-wrapper {
+  position: fixed;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  z-index: 201;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.cursor {
+  width: 20px;
+  height: 20px;
+  background-image: url('../images/cursosjoeg.png');
+  background-position: 50% 50%;
+  background-size: cover;
 }
 
 @media screen and (max-width: 991px) {
