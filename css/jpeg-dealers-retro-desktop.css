@@ -1774,7 +1774,7 @@ a {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    width: 80%;
+    width: 10rem;
     height: 90vh;
     padding-top: 1.5rem;
     padding-left: 0.6rem;
