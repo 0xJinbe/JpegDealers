@@ -1176,16 +1176,7 @@ a {
   width: 2.55rem;
   height: 2.55rem;
   background-color: rgba(56, 152, 236, 0);
-  background-image: url('../images/soundon.png');
-  background-position: 50% 50%;
-  background-size: cover;
   cursor: pointer;
-}
-
-.play_btn:hover {
-  background-image: url('../images/soundoff.png');
-  background-position: 50% 50%;
-  background-size: cover;
 }
 
 .text-block-landingp4 {
@@ -1464,6 +1455,10 @@ a {
 .buttonentranceno:hover {
   background-color: #290c5e;
   color: #fff;
+}
+
+.officon {
+  display: none;
 }
 
 @media screen and (max-width: 991px) {
