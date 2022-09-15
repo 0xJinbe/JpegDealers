@@ -1946,6 +1946,10 @@ a {
     max-width: 60%;
   }
 
+  .paragraph.contacttext {
+    text-align: center;
+  }
+
   .portfolioinnerwrapp {
     height: auto;
     min-height: 0px;
